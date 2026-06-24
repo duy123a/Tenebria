@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Tenebria.Shared.Infrastructure/Tenebria.Shared.Infrastructure.csproj" />
+    <Project Path="Shared/Tenebria.Shared.Module/Tenebria.Shared.Module.csproj" />
+  </Folder>
+  <Project Path="Tenebria.Api/Tenebria.Api.csproj" />
+</Solution>

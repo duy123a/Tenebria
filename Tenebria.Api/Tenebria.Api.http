@@ -1,0 +1,6 @@
+@Tenebria.Api_HostAddress = http://localhost:5255
+
+GET {{Tenebria.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
