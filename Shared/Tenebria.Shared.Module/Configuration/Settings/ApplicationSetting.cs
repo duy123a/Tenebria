@@ -5,6 +5,7 @@ public class ApplicationSetting
     public virtual string SystemName { get; init; } = default!;
     public virtual string ServerName { get; init; } = default!;
     public virtual string Version { get; init; } = default!;
+    public virtual string TimeZone { get; init; } = default!;
     public virtual RedisCacheSetting RedisCache { get; init; } = default!;
     public virtual DatabaseSetting Database { get; init; } = default!;
     public OpenApiSetting OpenApi { get; init; } = default!;

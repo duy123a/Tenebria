@@ -17,6 +17,9 @@ AppSettingProvider.Initialize(appSetting);
 SeriLogProvider.Initialize(builder.Environment, new ApiLogEventEnricher(appSetting));
 Log.Logger.LogInfo("Tenebria application will now start.");
 
+// Web API services
+builder.Services.AddWebApiServices(builder.Environment);
+
 // Add services to the container.
 
 builder.Services.AddControllers();
